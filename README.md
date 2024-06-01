@@ -5,12 +5,10 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -39,34 +37,7 @@ TodoApp is a task management application designed to help users manage their dai
 - **Other:**
   - HTML5
   - CSS3
-  - JavaScript (ES6+)
-
-## Project Structure
-
-TodoApp/
-├── backend/                   # Django backend project
-│   ├── app/                   # Django app for managing tasks
-│   ├── manage.py              # Django management script
-│   └── ...                    # Other Django project files
-├── frontend/                  # Vue.js frontend project
-│   ├── public/                # Public assets
-│   ├── src/                   # Source files
-│   │   ├── components/        # Vue components
-│   │   │   ├── CreateTaskModal.vue
-│   │   │   ├── EditTaskModal.vue
-│   │   │   └── ...
-│   │   ├── store/             # Vuex store
-│   │   ├── views/             # Vue views
-│   │   │   ├── Home.vue
-│   │   │   └── ...
-│   │   ├── App.vue            # Root component
-│   │   ├── main.js            # Entry point
-│   │   └── ...
-│   ├── package.json           # NPM dependencies
-│   └── ...
-└── README.md                  # Project README
-
-
+  - JavaScript (ES6+) 
 
 ## Setup and Installation
 
@@ -130,8 +101,6 @@ TodoApp/
 ### Authentication
 
 - **POST** `/api/auth/login/` - User login
-- **POST** `/api/auth/register/` - User registration
-- **POST** `/api/auth/logout/` - User logout
 
 ### Tasks
 
