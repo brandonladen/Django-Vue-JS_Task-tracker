@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Screenshots](#Screenshots)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
@@ -13,6 +14,20 @@
 ## Introduction
 
 TodoApp is a task management application designed to help users manage their daily tasks efficiently. The application allows users to create, read, update, and delete tasks. It features a user-friendly interface with modals for adding and editing tasks.
+
+## Screenshots
+
+### Login Page
+![Login Page](media/login.png)
+
+### Home Page
+![Home Page](media/home.png)
+
+### Create Task Page
+![Create Task Page](media/create_task.png)
+
+### Edit Task Page
+![Edit Task Page](media/edit_task.png)
 
 ## Features
 
