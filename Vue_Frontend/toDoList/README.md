@@ -1,29 +1,44 @@
-# toDoList
+# TodoApp
 
-This template should help get you started developing with Vue 3 in Vite.
+## Table of Contents
 
-## Recommended IDE Setup
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Introduction
 
-## Customize configuration
+TodoApp is a task management application designed to help users manage their daily tasks efficiently. The application allows users to create, read, update, and delete tasks. It features a user-friendly interface with modals for adding and editing tasks.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Features
 
-## Project Setup
+- User authentication (login/logout)
+- Create new tasks
+- View a list of tasks
+- Edit existing tasks
+- Delete tasks
+- Responsive design
 
-```sh
-npm install
-```
+## Technologies Used
 
-### Compile and Hot-Reload for Development
+- **Frontend:**
+  - Vue.js 3
+  - Vuex
+  - Vue Router
+  - Axios
 
-```sh
-npm run dev
-```
+- **Backend:**
+  - Django (Django REST framework)
 
-### Compile and Minify for Production
+- **Other:**
+  - HTML5
+  - CSS3
+  - JavaScript (ES6+)
 
-```sh
-npm run build
-```
+## Project Structure
