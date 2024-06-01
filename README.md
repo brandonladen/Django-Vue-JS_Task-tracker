@@ -52,7 +52,7 @@ TodoApp is a task management application designed to help users manage their dai
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/TodoApp.git
+    git clone https://github.com/brandonladen/Django-Vue-JS_Task-tracker
     cd TodoApp/backend
     ```
 
